@@ -1,0 +1,225 @@
+{
+  "uuid": "33e5d460ef317e3b4c6d9d29f42ca8b1",
+  "path": "Offline/wifi-ra02",
+  "name": "wifi-ra02",
+  "content": "дружим разные модули",
+  "created_at": "2022-10-16 22:04:26",
+  "updated_at": "2022-10-19 20:09:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a7335fc087ed7e521afcb96b14e0ce47",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f942f8e244294bb7b1d0d99120824d33": 1,
+        "9fa08ca25d5c4660a01380605bb8b8f5": 1,
+        "ff3b33ac146e49159ca68dc24f6fcdca": 1,
+        "b18176689c5e4c9fbd2c4ba3f2fc36cc": 1,
+        "36933bb06fae42ee9ab6adc3a23c7281": 1,
+        "aafe763576954000be8a6fb0ac77095c": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 2,
+        "404aa9221ff94de597b8734806e7c74f": 30,
+        "bb009484ef804a24ac5d18c54b249586": 2,
+        "24eeb2ceca08480b92b847b6a310acda": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          2,
+          "HDR-F-2.54_1X2",
+          "H1,H2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          30,
+          "HDR-M-2.54_1X1",
+          "J1,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19,J20,J21,J22,J23,J24,J25,J26,J27,J28,J29,J30,J31,J32,J33,J34,J35,J36",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "100k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "330k",
+          1,
+          "R0603",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "Switch_DPDT_8mm_self-locking",
+          1,
+          "SWITCH SELF LOCKING 8MM TH",
+          "SW1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c337e2b763184e96970e3a435cbbc2f7",
+            "uuid": "36933bb06fae42ee9ab6adc3a23c7281"
+          }
+        ],
+        [
+          "WEMOS_D1_MINI_PRO4",
+          1,
+          "DIP-16_WEMOS_D1_MINI_PRO4",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2837266",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "Wemos_D1_mini_Pro4",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "562d77a546a24e4f83c78207be689c00",
+            "uuid": "f942f8e244294bb7b1d0d99120824d33"
+          }
+        ],
+        [
+          "DS3231_RTC_MODULE",
+          1,
+          "DS3231",
+          "U2",
+          {
+            "BOM_Manufacturer Part": "DS3231",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a85d33c91929458d80665c2ba48d7a94",
+            "uuid": "9fa08ca25d5c4660a01380605bb8b8f5"
+          }
+        ],
+        [
+          "RA-02",
+          1,
+          "RA-02",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8dcd619772654771af117a720cbd9d6f",
+            "uuid": "ff3b33ac146e49159ca68dc24f6fcdca"
+          }
+        ],
+        [
+          "S09 自動升降壓模塊",
+          1,
+          "S09自動升降壓模塊",
+          "U4",
+          {
+            "BOM_Manufacturer": "Unknown",
+            "BOM_Manufacturer Part": "S09",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ec29e528af644ee9a34c13f48b5e6e3e",
+            "uuid": "b18176689c5e4c9fbd2c4ba3f2fc36cc"
+          }
+        ],
+        [
+          "Hw373",
+          1,
+          "HW-373",
+          "U5",
+          {
+            "BOM_Manufacturer": "Shenzhen Hairuixing Technology Co., Ltd.",
+            "BOM_Manufacturer Part": "HW-373",
+            "BOM_Supplier": "alibaba",
+            "BOM_Supplier Part": "HW-373",
+            "puuid": "4f6624065a7344df8f71961d053a477d",
+            "uuid": "aafe763576954000be8a6fb0ac77095c"
+          }
+        ]
+      ],
+      "updateTime": 1666180327,
+      "createTime": 1665932666,
+      "histories": [],
+      "created_at": "2022-10-16 22:04:26",
+      "updated_at": "2022-10-19 18:52:07"
+    },
+    {
+      "uuid": "a34fdeedc32ecca5e76c6bc263b73702",
+      "puuid": "33e5d460ef317e3b4c6d9d29f42ca8b1",
+      "title": "PCB_wifi-ra02",
+      "filename": "PCB_wifi-ra02.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 2,
+        "19c77e72422b43b59c26b9fa67af5de4": 29,
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "c337e2b763184e96970e3a435cbbc2f7": 1,
+        "562d77a546a24e4f83c78207be689c00": 1,
+        "a85d33c91929458d80665c2ba48d7a94": 1,
+        "8dcd619772654771af117a720cbd9d6f": 1,
+        "ec29e528af644ee9a34c13f48b5e6e3e": 1,
+        "4f6624065a7344df8f71961d053a477d": 1
+      },
+      "BOM": [],
+      "updateTime": 1666184962,
+      "createTime": 1666184962,
+      "histories": [],
+      "created_at": "2022-10-19 20:09:22",
+      "updated_at": "2022-10-19 20:09:22"
+    }
+  ],
+  "sort": [],
+  "title": "wifi-ra02",
+  "foldername": "wifi-ra02",
+  "schfilename": "wifi-ra02.json",
+  "schfilemtime": 1666180327934
+}
